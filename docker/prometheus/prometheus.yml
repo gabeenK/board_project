@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 10s
+  evaluation_interval: 10s
+
+scrape_configs:
+  - job_name: 'ssgb-app'
+    metrics_path: /show/prometheus
+    static_configs:
+      - targets: [ 'host.docker.internal:8080' ] # add application server <host>:<post>
+    authorization:
+      credentials: 'add prometheus admin accessToken' # add user access token
+      type: Bearer
