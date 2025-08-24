@@ -34,6 +34,5 @@ public class QBaseCreatedEntity extends EntityPathBase<BaseCreatedEntity> {
     public QBaseCreatedEntity(PathMetadata metadata) {
         super(BaseCreatedEntity.class, metadata);
     }
-
 }
 
