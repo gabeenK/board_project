@@ -1,6 +1,6 @@
-# 블라인드 게시판 (Anonymous Board)
+# 게시판 (Board)
 
-익명/가명(스레드별 별명) 게시가 가능한 **Spring Boot 3.x + Java 21** 백엔드 템플릿입니다. JPA/QueryDSL, Redis, PostgreSQL, Flyway, springdoc-openapi, Testcontainers를 기본 포함하며, 익명화·레이트리밋·신고/모더레이션·감사 로그 등 운영 기능까지 갖춘 실무형 보일러플레이트입니다.
+**Spring Boot 3.x + Java 21** 백엔드 템플릿입니다. JPA/QueryDSL, Redis, PostgreSQL, Flyway, springdoc-openapi, Testcontainers를 기본 포함하며, 익명화·레이트리밋·신고/모더레이션·감사 로그 등 운영 기능까지 갖춘 실무형 보일러플레이트입니다.
 
 > 이 README는 **예시 구조**를 기준으로 작성되었습니다. 실제 저장소에 맞게 패키지/모듈/경로를 조정하세요.
 
